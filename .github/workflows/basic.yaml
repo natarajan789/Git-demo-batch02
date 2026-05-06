@@ -1,14 +1,14 @@
 name: Basic GitHub Action pipeline
 
 on:
-  workflow_dispatch: 
-  # push:
-  #   branches: ["main"]
+  #workflow_dispatch: 
+   push:
+    branches: ["main"]
   # pull_request: 
   #   branches: ["main"]
 
 jobs:
-  Basic:
+ Basic:
     runs-on: [self-hosted, Linux]
 
     steps:
