@@ -18,7 +18,7 @@ jobs:
     environment: ${{ github.ref == 'refs/heads/main' && 'prod' || 'dev' }}
 
     steps:
-      - name: Clone the code
+      - name: Clone the codes
         uses: actions/checkout@v6
 
       - name: Node setup
